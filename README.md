@@ -7,9 +7,9 @@ This will be the webapp we'll use on lug.utdallas.edu.  It features a persistent
 
 Todo
 ------------
-1. UI overhaul
-2. Remove unnecessary features for our use, such as choice of IRC network, port, etc.
-3. Have it connect to #UTDLUG upon registration
+1. Continued UI overhaul
+2. Change irc connection type to SSL
+3. Fix so that it focuses on '#utdlug' chan instead of 'Status' on resume
 
 
 History
