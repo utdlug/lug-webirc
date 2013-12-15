@@ -1,70 +1,16 @@
-Subway
+LUG-WebIRC
 ======
 
-Subway is a web-based IRC client with a multi-user backend and a
-JavaScript-heavy UI. Frontend/backend communication is done with
-websockets (or best available fallback where not available).
-The backend supports connection persistence and optional logging when the
-browser disconnects.
+Forked from the web-based IRC client Subway.  
 
-Subway is built with [node.js](http://nodejs.org/),
-[node-irc](https://github.com/martynsmith/node-irc)
-and [Backbone.js](http://documentcloud.github.com/backbone/) and
-[jQuery](http://jquery.com/) on the frontend.
+This will be the webapp we'll use on lug.utdallas.edu.  It features a persistent connection ability and great basic IRC features.
 
-Screenshots
+Todo
 ------------
-![Overview](http://i.imgur.com/pIJr7r7.png)
-![Chat](http://i.imgur.com/vAmbsvf.png)
+1. UI overhaul
+2. Remove unnecessary features for our use, such as choice of IRC network, port, etc.
+3. Have it connect to #UTDLUG upon registration
 
-Installation
-------------
-
-*Should be something like this, once implemented:*
-
-1. Assuming you already have node.js, and npm, run:
-
-        $ git clone https://github.com/thedjpetersen/subway.git
-        $ cd subway
-
-2. Install the dependencies using npm:
-    
-    	$ npm install
-
-3. Launch the web server
-
-        $ ./subway
-
-4. Point your browser at `http://localhost:3000/`
-
-
-Development
------------
-
-Discussion about the client takes place on the freenode channel **#subway**, and on
-this repository's [Issues](https://github.com/thedjpetersen/subway/issues) page.
-Contributors are welcome and greatly appreciated.
-
-Configuration
--------------
-
-### Client Port
-
-You can set which port will be listened on the socket side with the
-`client_port` setting.
-
-### Long Polling
-
-If for some reasons you can't establish websockets, (e.g. Heroku, browser
-compatibility) specify the `use_polling` config for your app
-and it will use xhr-polling instead.
-
-### Heroku
-
-Set the following environment vars to your app: 
-
-* USE\_POLLING=1
-* CLIENT\_PORT=80
 
 History
 -------
