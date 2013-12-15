@@ -47,14 +47,21 @@ html { overflow: hidden; }
   right: 0;
 }
 
-.sidebar > h2 {
+.sidebar > h3 {
   text-align: center;
-  line-height: 0.9em;
+  line-height: 24px;
   margin-top: 0.3em;
 }
 
+
+.sidebar > h6 {
+  text-align: center;
+  line-height: 24px;
+  color: #999;
+}
+
 #overview {
-  width: 400px;
+  width: 550px;
   margin: 10% auto 30% auto;
   padding: 10px;
   background: #E7E9ED;
@@ -74,7 +81,7 @@ html { overflow: hidden; }
 }
 
 #overview ul li:hover {
-  background: #A7DBD8;
+  background: #cbcfd6;
   cursor: pointer;
   border-radius: 5px;
 }

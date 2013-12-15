@@ -12,8 +12,9 @@ module.exports = {
   restore_connections: true,
 
   // Servers to which the client is allowed to connect to, restrict all the others
+
   // server_whitelist: ["irc.freenode.net"],
-  server_whitelist: false,
+  server_whitelist: ["irc.oftc.net"],
 
   /* not implemented yet */
   user_access: {

@@ -73,6 +73,7 @@ $(function() {
     } else {
       irc.appView.overview.render({currentTarget: {id: "connection"}});
     }
+    irc.chatWindows.add({name: 'lugtest', initial: true});
   });
 
   irc.socket.on('disconnect', function() {
