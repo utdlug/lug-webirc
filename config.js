@@ -2,7 +2,8 @@ module.exports = {
   debug: false,
 
   dbadapter: 'sqlite3',
-  dbname: process.env.DB_PATH || 'subway.db',
+//  dbname: process.env.DB_PATH || 'subway.db',
+  dbname: '/var/www/lug-webirc/subway.db',
   dbusername: '',
   dbpassword: '',
   dbhost: '',
